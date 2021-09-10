@@ -1,0 +1,4 @@
+#This script starts x0vncserver on boot/login to the gui to be accessed when 
+#the Raspberry PI is running without a keyboard or mouse
+
+x0vncserver -display :0 -PasswordFile /home/pi/.vnc/passwd
